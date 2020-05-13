@@ -74,3 +74,85 @@ nav a+a{
   vertical-align: middle;
   margin-left: 45px; 
 }
+.banner{
+  background: url("./img/cover.jpg") no-repeat;
+  height: 750px;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+.banner-inner{
+  position: absolute;
+  width:602px;
+  height:155px;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  font-size: 0;
+  background-color:rgba(231, 228, 219, 0.7);
+  text-align: center;
+  padding: 30px;
+}
+.banner-inner h2{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  margin-bottom: 20px; 
+}
+.shopNow{
+  display: inline-block;
+  width: 150px;
+  height: 25px;
+  color:white;
+  padding: 10px 45px;
+  background-color: #303132;
+  font-size: 20px;
+  text-align: center;
+}
+.shopA:hover{
+  color: pink;
+}
+.FreeShippingWorlWide{
+  background-color: #e3e3e3;
+  padding: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.content{
+  margin: 150px auto;
+}
+.content h3{
+  font-size: 45px;
+  letter-spacing: 15px;
+  text-align: center;
+}
+.content hr{
+  width: 35px;
+  margin: 30px auto;
+}
+.content p{
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+.content ul{
+ text-align: center;
+ font-size: 0;
+}
+.content ul li{
+  display: inline-block;
+}
+.content-inner a{
+  display: block;
+  width:400px;
+}
+.content img{
+  /* width:100%; */
+  vertical-align: top;
+}
+.content ul :nth-child(2){
+  margin: 0 10px;
+}
