@@ -156,3 +156,73 @@ nav a+a{
 .content ul :nth-child(2){
   margin: 0 10px;
 }
+footer{
+  background:#535151;
+  color: #d3d3d3;
+  padding: 50px 0;
+  font-size:0;
+}
+footer .text >form{
+    margin: 0 100px 0;
+}
+footer .text{
+  margin-bottom: 50px; 
+}
+.social-media{
+  display:inline-block;
+  vertical-align: top;
+}
+.social-media ul :nth-child(n+2):nth-child(-n+4){
+  margin-left: 20px;
+}
+footer .stayConnected li{
+  display: inline-block;
+}
+footer .text ul a{
+  display: block;
+  width: 20px;
+}
+.text h4{
+  font-size: 15px;
+  margin: 0 0 8px 0;
+  letter-spacing: 2px;
+}
+.text form{
+  display: inline-block;
+  vertical-align: top;
+}
+.text form input{
+  display: block;
+  width: 300px;
+  height: 30px;
+  background: #535151;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  color:white;
+}
+.text form button{
+  display: block;
+  margin-left: auto;
+  width: 85px;
+  padding:8px 5px 8px 5px;
+}
+.text .information{
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.text .information p{
+  padding: 2px 0 2px 0;
+}
+.text{
+  width: 880px;
+  margin: 0 auto;
+}
+.copyright{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+input::-webkit-input-placeholder{
+  color: white;
+}
